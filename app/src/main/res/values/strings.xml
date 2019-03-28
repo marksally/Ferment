@@ -1,4 +1,31 @@
 <resources>
     <string name="app_name">Ferment</string>
+    <string name="Project_Title">Project Title</string>
+    <string name="recipe">Recipe</string>
+    <string name="enter_recepie">Enter Recipe here</string>
+    <string name="fermentation_time">Fermentation Time</string>
+    <string name="duration">Duration in Days:</string>
 
+    <integer-array name="days">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </integer-array>
 </resources>
