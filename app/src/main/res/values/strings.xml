@@ -2,9 +2,19 @@
     <string name="app_name">Ferment</string>
     <string name="Project_Title">Project Title</string>
     <string name="recipe">Recipe</string>
-    <string name="enter_recepie">Enter Recipe here</string>
+    <string name="enter_recipe">Enter Recipe here</string>
     <string name="fermentation_time">Fermentation Time</string>
     <string name="duration">Duration in Days:</string>
+    <string name="phLevel">pH Level:</string>
+    <string name="tepache">Tepache</string>
+    <string name="new_project">New Project</string>
+    <string name="current_projects">Current Projects</string>
+    <string name="templates">Templates</string>
+    <string name="three_days">Three days</string>
+    <string name="starter">   Sourdough Starter</string>
+    <string name="seven_days">Seven days</string>
+    <string name="kombucha">Kombucha</string>
+    <string name="ten_days">Ten days</string>
 
     <integer-array name="days">
         <item>1</item>
@@ -28,4 +38,6 @@
         <item>19</item>
         <item>20</item>
     </integer-array>
+
+    <string name="action_settings">Settings</string>
 </resources>
