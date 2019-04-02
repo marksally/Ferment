@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NewProject"></activity>
+        <activity android:name=".Tepache"></activity>
+        <activity android:name=".TestTemplate" />
+        <activity android:name=".NewFromTemplate" />
+        <activity android:name=".NewProject" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
