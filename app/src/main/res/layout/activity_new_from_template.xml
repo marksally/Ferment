@@ -14,7 +14,7 @@
         android:layout_marginLeft="7dp"
         android:layout_marginTop="7dp"
         android:text="@string/seven_days"
-        app:layout_constraintStart_toEndOf="@+id/btnStarter"
+        app:layout_constraintStart_toEndOf="@+id/btnHotSauce"
         app:layout_constraintTop_toBottomOf="@+id/tvStarter" />
 
     <TextView
@@ -25,11 +25,11 @@
         android:layout_marginLeft="7dp"
         android:layout_marginTop="21dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/starter"
+        android:text="@string/hot_sauce"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tvSevenDays"
-        app:layout_constraintStart_toEndOf="@+id/btnStarter"
+        app:layout_constraintStart_toEndOf="@+id/btnHotSauce"
         app:layout_constraintTop_toBottomOf="@+id/tvThreeDays" />
 
     <TextView
@@ -80,13 +80,13 @@
         android:layout_marginRight="7dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/tepache"
-        app:layout_constraintBottom_toTopOf="@+id/btnStarter"
+        app:layout_constraintBottom_toTopOf="@+id/btnHotSauce"
         app:layout_constraintEnd_toStartOf="@+id/tvTepache"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTemplates" />
 
     <Button
-        android:id="@+id/btnStarter"
+        android:id="@+id/btnHotSauce"
         android:layout_width="96dp"
         android:layout_height="96dp"
         android:layout_marginStart="16dp"
@@ -94,7 +94,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="7dp"
         android:layout_marginRight="7dp"
-        android:background="@drawable/starter"
+        android:background="@drawable/hot_sauce"
         app:layout_constraintEnd_toStartOf="@+id/tvSevenDays"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnTepache" />
@@ -111,7 +111,7 @@
         android:background="@drawable/kombucha"
         app:layout_constraintEnd_toStartOf="@+id/tvKombucha"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnStarter" />
+        app:layout_constraintTop_toBottomOf="@+id/btnHotSauce" />
 
     <TextView
         android:id="@+id/tvKombucha"
