@@ -16,6 +16,27 @@
     <string name="kombucha">Kombucha</string>
     <string name="ten_days">Ten days</string>
 
+    <!--Tepache strings-->
+    <string name="pineapple">1 whole pineapple cut into chunks and muddled</string>
+    <string name="tepache_sugar">225g of brown sugar (Piloncillo if available)</string>
+    <string name="tepache_ginger">Ginger. washed, trimmed and crushed</string>
+    <string name="tepahe_cinnamon">1 cinnamon stick</string>
+    <string name="tepache_chillis">1 chili pepper, halved</string>
+    <string name="tepache_water">Top fermentation vessel with water</string>
+    <string name="tepache_time">3</string>
+    <string name="tepache_pH">3.5 (Ideally)</string>
+
+    <!--Kombucha strings-->
+    <string name="kombucha_water">4 litres of water</string>
+    <string name="kombucha_sugar">200g of granulated suagr</string>
+    <string name="kombucha_tea">30g of mixed tea (not Earl Grey)</string>
+    <string name="kombucha_starter">250ml of previous batch or store bought kombucha </string>
+    <string name="kombucha_scoby">1 scoby per fermentation vessel</string>
+    <string name="kombucha_bottling">Flavour with fruit or juice during bottle fermentation</string>
+    <string name="kombucha_duration">10</string>
+    <string name="kombucha_pH">3</string>
+
+
     <integer-array name="days">
         <item>1</item>
         <item>2</item>

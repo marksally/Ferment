@@ -9,6 +9,8 @@ import android.widget.Button;
 public class NewFromTemplate extends AppCompatActivity {
 
     private Button btnTepache;
+    private Button btnKombucha;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,10 +24,23 @@ public class NewFromTemplate extends AppCompatActivity {
             }
 
         });
+
+        btnKombucha = (Button) findViewById(R.id.btnKombucha);
+        btnKombucha.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openKombucha();
+            }
+        });
     }
 
     public void openTepache(){
         Intent intent = new Intent(this, Tepache.class);
+        startActivity(intent);
+    }
+
+    public void openKombucha(){
+        Intent intent = new Intent(this, Kombucha.class);
         startActivity(intent);
     }
 }

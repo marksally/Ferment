@@ -13,10 +13,7 @@
         android:layout_marginStart="7dp"
         android:layout_marginLeft="7dp"
         android:layout_marginTop="7dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
         android:text="@string/seven_days"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnStarter"
         app:layout_constraintTop_toBottomOf="@+id/tvStarter" />
 
@@ -27,14 +24,11 @@
         android:layout_marginStart="7dp"
         android:layout_marginLeft="7dp"
         android:layout_marginTop="21dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
         android:layout_marginBottom="8dp"
         android:text="@string/starter"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tvSevenDays"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnStarter"
         app:layout_constraintTop_toBottomOf="@+id/tvThreeDays" />
 
@@ -58,12 +52,9 @@
         android:layout_marginStart="7dp"
         android:layout_marginLeft="7dp"
         android:layout_marginTop="60dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
         android:text="@string/tepache"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnTepache"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -74,10 +65,7 @@
         android:layout_marginStart="7dp"
         android:layout_marginLeft="7dp"
         android:layout_marginTop="7dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
         android:text="@string/three_days"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnTepache"
         app:layout_constraintTop_toBottomOf="@+id/tvTepache" />
 
@@ -112,7 +100,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnTepache" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnKombucha"
         android:layout_width="96dp"
         android:layout_height="96dp"
         android:layout_marginStart="16dp"
@@ -132,15 +120,12 @@
         android:layout_marginStart="7dp"
         android:layout_marginLeft="7dp"
         android:layout_marginTop="21dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
         android:layout_marginBottom="7dp"
         android:text="@string/kombucha"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tvTenDays"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintStart_toEndOf="@+id/btnKombucha"
         app:layout_constraintTop_toBottomOf="@+id/tvSevenDays" />
 
     <TextView
@@ -150,10 +135,7 @@
         android:layout_marginStart="7dp"
         android:layout_marginLeft="7dp"
         android:layout_marginTop="7dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
         android:text="@string/ten_days"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintStart_toEndOf="@+id/btnKombucha"
         app:layout_constraintTop_toBottomOf="@+id/tvKombucha" />
 </android.support.constraint.ConstraintLayout>

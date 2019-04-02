@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Tepache"></activity>
+        <activity android:name=".Kombucha"></activity>
+        <activity android:name=".Tepache" />
         <activity android:name=".TestTemplate" />
         <activity android:name=".NewFromTemplate" />
         <activity android:name=".NewProject" />
