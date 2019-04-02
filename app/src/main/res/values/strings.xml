@@ -11,7 +11,7 @@
     <string name="current_projects">Current Projects</string>
     <string name="templates">Templates</string>
     <string name="three_days">Three days</string>
-    <string name="starter">   Sourdough Starter</string>
+    <string name="hot_sauce">Hot Sauce</string>
     <string name="seven_days">Seven days</string>
     <string name="kombucha">Kombucha</string>
     <string name="ten_days">Ten days</string>
@@ -35,6 +35,19 @@
     <string name="kombucha_bottling">Flavour with fruit or juice during bottle fermentation</string>
     <string name="kombucha_duration">10</string>
     <string name="kombucha_pH">3</string>
+
+    <!--Hot Sauce Strings-->
+    <string name="hotSauce_chillies">400g of mixed chillies. Halved </string>
+    <string name="hotSauce_garlic">2 garlic cloves. Crushed</string>
+    <string name="hotSauce_salt">45g of salt</string>
+    <string name="hotSauce_sugar">45g of sugar</string>
+    <string name="hotSauce_pepper">mixed peppercorns</string>
+    <string name="hotSauce_paprika">10g of smoked paprika</string>
+    <string name="hotSauce_duration">7-14</string>
+    <string name="hotSauce_pH">2.75</string>
+
+
+
 
 
     <integer-array name="days">
