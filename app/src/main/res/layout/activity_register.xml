@@ -15,7 +15,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Ferment_Logo" />
+        app:srcCompat="@drawable/ferment_logo" />
 
     <EditText
         android:id="@+id/etRegUsername"

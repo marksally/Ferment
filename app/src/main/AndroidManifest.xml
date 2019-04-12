@@ -10,14 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Register"></activity>
-        <activity android:name=".Login" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".HotSauce" />
         <activity android:name=".Kombucha" />
         <activity android:name=".Tepache" />
         <activity android:name=".TestTemplate" />
         <activity android:name=".NewFromTemplate" />
         <activity android:name=".NewProject" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
