@@ -47,9 +47,6 @@
     <string name="hotSauce_pH">2.75</string>
 
 
-
-
-
     <integer-array name="days">
         <item>1</item>
         <item>2</item>
