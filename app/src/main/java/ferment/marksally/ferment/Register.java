@@ -9,6 +9,7 @@ import android.widget.Button;
 public class Register extends AppCompatActivity {
 
     private Button btnReg;
+    private Button btnFbReg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +18,15 @@ public class Register extends AppCompatActivity {
 
         btnReg = (Button) findViewById(R.id.btnReg);
         btnReg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openMainMenu();
+            }
+
+        });
+
+        btnFbReg = (Button) findViewById(R.id.btnFbReg);
+        btnFbReg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openMainMenu();
