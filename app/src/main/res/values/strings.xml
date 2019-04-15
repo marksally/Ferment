@@ -15,6 +15,8 @@
     <string name="seven_days">Seven days</string>
     <string name="kombucha">Kombucha</string>
     <string name="ten_days">Ten days</string>
+    <string name="Sauerkraut">Sauerkraut</string>
+    <string name="fourteen_days">Fourteen days</string>
 
     <!--Tepache strings-->
     <string name="pineapple">1 whole pineapple cut into chunks and muddled</string>
@@ -46,6 +48,15 @@
     <string name="hotSauce_duration">7-14</string>
     <string name="hotSauce_pH">2.75</string>
 
+    <!--Sauerkraut Strings-->
+    <string name="Sauerkraut_Cabbage">500g of cabbage. Sliced and salted</string>
+    <string name="Sauerkraut_Drain">Move to a jar when all water has been expelled</string>
+    <string name="Sauerkraut_water">Fill jar with brine</string>
+    <string name="Sauerkraut_weight">Weight cabbage down with weights</string>
+    <string name="Sauerkraut_mustard">10g of mustard seeds</string>
+    <string name="Sauerkraut_Cover">Seal jar with an air lock lid</string>
+    <string name="Sauerkraut_duration">14</string>
+    <string name="Sauerkraut_pH">3</string>
 
     <integer-array name="days">
         <item>1</item>

@@ -138,4 +138,42 @@
         android:text="@string/ten_days"
         app:layout_constraintStart_toEndOf="@+id/btnKombucha"
         app:layout_constraintTop_toBottomOf="@+id/tvKombucha" />
+
+    <TextView
+        android:id="@+id/tvSauerkraut"
+        android:layout_width="260dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/Sauerkraut"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/btnSauerkraut"
+        app:layout_constraintTop_toBottomOf="@+id/tvTenDays" />
+
+    <Button
+        android:id="@+id/btnSauerkraut"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/sauerkraut_first"
+        app:layout_constraintEnd_toStartOf="@+id/tvSauerkraut"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnKombucha" />
+
+    <TextView
+        android:id="@+id/tv14Day"
+        android:layout_width="260dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/fourteen_days"
+        app:layout_constraintStart_toEndOf="@+id/btnSauerkraut"
+        app:layout_constraintTop_toBottomOf="@+id/tvSauerkraut" />
 </android.support.constraint.ConstraintLayout>

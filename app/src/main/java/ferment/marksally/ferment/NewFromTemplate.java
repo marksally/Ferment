@@ -11,6 +11,7 @@ public class NewFromTemplate extends AppCompatActivity {
     private Button btnTepache;
     private Button btnKombucha;
     private Button btnHotSause;
+    private Button btnSauerkraut;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +43,14 @@ public class NewFromTemplate extends AppCompatActivity {
                 openKombucha();
             }
         });
+
+        btnSauerkraut = (Button) findViewById(R.id.btnSauerkraut);
+        btnSauerkraut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openSauerkraut();
+            }
+        });
     }
 
     public void openTepache(){
@@ -56,6 +65,11 @@ public class NewFromTemplate extends AppCompatActivity {
 
     public void openKombucha(){
         Intent intent = new Intent(this, Kombucha.class);
+        startActivity(intent);
+    }
+
+    public void openSauerkraut(){
+        Intent intent = new Intent(this, Sauerkraut.class);
         startActivity(intent);
     }
 }
